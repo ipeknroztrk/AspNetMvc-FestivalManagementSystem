@@ -1,33 +1,90 @@
-🎪 Festival Yönetim Projesi - ASP.NET MVC
-Bu proje, ASP.NET MVC kullanılarak geliştirilmiş dinamik admin ve kullanıcı panelli bir festival yönetim projesidir.
+🎪 Festival Management System — ASP.NET MVC
+🧠 Kullanılan Teknolojiler
+🏗 Backend
 
-Proje Amaçları
-Bu proje, festival etkinliklerinin yönetimini sağlamak ve kullanıcıların festival biletlerini satın alabilmesini kolaylaştırmak amacıyla geliştirilmiştir. Proje, aşağıdaki özellikleri sunar:
+ASP.NET MVC (.NET 6)
 
-Admin Paneli: Festival yöneticileri, admin paneli üzerinden bilet, sanatçı ve etkinlik yönetimi yapabilirler. Admin paneli ayrıca kullanıcı yönetimi ve genel site ayarlarını da içerir.
-Kullanıcı Paneli: Kullanıcılar, siteye üye girişi yaparak festival biletleri satın alabilirler. Ayrıca daha önce satın aldıkları biletleri görüntüleyebilirler.
-Site Kısmı: Ziyaretçiler, festival etkinlikleri hakkında bilgi alabilir ve bilet satın alma işlemlerini gerçekleştirebilirler.
-Teknolojiler ve Kütüphaneler
-Proje, aşağıdaki teknolojiler ve kütüphaneler kullanılarak geliştirilmiştir:
+Entity Framework — Code-First
 
-ASP.NET MVC: Web uygulaması geliştirme için kullanılan framework.
-Layout Kontrolü: Ortak bir görünüm sağlamak için layout dosyalarının kullanımı.
-Controller Yapısı: İş mantığı ve kullanıcı isteklerini yönetmek için controller sınıfları.
-Partial View Kullanımı: Tekrar eden bileşenlerin ayrı dosyalarda yönetilmesi.
-Code First Migration: Veritabanı oluşturma ve güncelleme işlemlerini kod tabanlı olarak yönetmek.
-Entity Framework: Veritabanı işlemleri için ORM (Object-Relational Mapping) aracı.
-Model Yapısı: Veri işlemleri için model sınıfları.
-View Yapısı: Kullanıcı arayüzünün HTML ve Razor ile oluşturulması.
-LINQ Sorguları: Veritabanı sorguları için LINQ (Language Integrated Query) kullanımı.
-Hazır Template Kurulumu ve Düzenlenmesi: Front-end tasarım için hazır template kullanımı ve özelleştirme.
-CRUD İşlemleri: Veritabanı işlemleri için CRUD (Create, Read, Update, Delete) operasyonlarının uygulanması.
-Area Kullanımı: Proje bölümlerinin (admin, kullanıcı) ayrı alanlarda (area) organize edilmesi.
-Kurulum ve Çalıştırma
-Gereksinimler
-.NET 6.0 SDK
-Visual Studio veya Visual Studio Code
 MSSQL Server
 
+Repository + Service Layer Mantığı
+
+LINQ Sorguları
+
+Model Validation
+
+Authentication / Authorization (Login sistemi)
+
+🎨 Frontend
+
+Razor View Engine
+
+Partial Views
+
+Layout Yapısı
+
+Bootstrap Template (özelleştirilmiş)
+
+HTML5 / CSS3 / JavaScript
+
+🧩 Mimari & Yapı
+
+N-Katmanlı Mimari
+
+Area Kullanımı (Admin / User / Site)
+
+CRUD İşlemleri
+
+Migration Yönetimi
+
+Strongly-Typed View Model Kullanımı
+
+📌 Proje Özeti
+
+Bu proje, festival organizasyonlarını yönetmek için geliştirilmiş dinamik admin ve kullanıcı panelli bir web uygulamasıdır.
+Amaç; bilet yönetimini, sanatçı & etkinlik planlamasını ve kullanıcı işlemlerini tek platformdan yönetmektir.
+
+🎛 Özellikler
+🔐 Admin Paneli
+
+🎟 Bilet yönetimi
+
+🎤 Sanatçı ve etkinlik yönetimi
+
+👥 Kullanıcı yönetimi
+
+⚙️ Site ayarları
+
+🗂 CRUD işlemleri
+
+🏷 Alan bazlı (Area) admin panel yapısı
+
+👤 Kullanıcı Paneli
+
+🔑 Giriş / Kayıt işlemleri
+
+🎫 Bilet satın alma
+
+📄 Daha önce alınan biletleri görüntüleme
+
+🌐 Site Genel Bölümü
+
+📅 Festival / etkinlik detayları
+
+🎵 Sanatçı bilgileri
+
+🎟 Bilet satın alma akışı
+
+🗄 Veritabanı & ORM
+
+Entity Framework — Code-First
+
+Migration ile DB oluşturma
+
+Relation & Navigation Property kullanımı
+
+LINQ ile veri erişim işlemleri
 ![Ekran görüntüsü 2024-07-08 114105](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/c6165e12-a505-4cda-b10f-28c2738fe58b)
 ![Ekran görüntüsü 2024-07-08 114143](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/893353b6-53fb-4f7a-b4fd-ea68c39a4485)
 ![Ekran görüntüsü 2024-07-08 114223](https://github.com/ipeknroztrk/FestavaLive/assets/114228895/feb8f716-0a92-4df4-9808-410defd26357)
